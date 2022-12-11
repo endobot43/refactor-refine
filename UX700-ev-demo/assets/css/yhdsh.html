@@ -1,0 +1,71 @@
+HTML: 
+
+ 
+
+<!DOCTYPE html> 
+
+<html lang="en"> 
+<link rel="stylesheet" href="hgjgkj.css">
+ 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+
+    <title>Input Range Slider</title> 
+
+    <link rel="stylesheet" href="style.css"> 
+
+</head> 
+
+ 
+
+<body> 
+
+    <div> 
+
+      <span id="rangeValue">0</span> 
+
+         <h1> KW/H </h1> 
+
+       
+
+       
+
+        <Input class="range" type="range" name "" value="0" min="0" max="40" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input> 
+
+    </div> 
+
+    <script type="text/javascript"> 
+
+        function rangeSlide(value) { 
+
+            document.getElementById('rangeValue').innerHTML = value; 
+
+        } 
+
+    </script> 
+
+   
+
+  <h2> 0% </h2> 
+
+  <h2> 25% </h2> 
+
+  <h2> 50% </h2> 
+
+  <h2> 75% </h2> 
+
+  <h2> 100% </h2> 
+
+   
+
+</body> 
+
+ 
+
+</html> 
